@@ -1,0 +1,28 @@
+.manager-dashboard {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  .employee-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .employee-list li {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .employee-list li.selected {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .employee-details {
+    margin-top: 20px;
+  }
+  

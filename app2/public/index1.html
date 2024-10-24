@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Skill Development Platform</title>
+    <script src="indices.js" defer></script>  <!-- Link to your JavaScript file -->
+    <link rel="stylesheet" href="styles.css">  <!-- Optional: Link to CSS file for styling -->
+</head>
+<body>
+    <h1>Welcome to the Employee Skill Development Platform</h1>
+    
+    <div id="login-section">
+        <h2>Login</h2>
+        <input type="number" id="employeeId" placeholder="Employee ID" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button id="loginButton">Login</button>
+        <div id="loginMessage"></div>
+    </div>
+
+    <div id="course-section" style="display: none;">
+        <h2>Upload Certificate</h2>
+        <input type="text" id="certificate" placeholder="Certificate Name" required>
+        <button id="uploadButton">Upload Certificate</button>
+        <div id="uploadMessage"></div>
+    </div>
+</body>
+</html>
